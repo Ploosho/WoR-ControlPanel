@@ -42,7 +42,7 @@ namespace WoRCP.Tabs
                 {
                     using (WebClient wc = new WebClient())
                     {
-                        wc.DownloadFile(new Uri("https://raw.githubusercontent.com/AmirDahan/WoR-CP-Apps/main/List.txt"), ListPath);
+                        wc.DownloadFile(new Uri("https://raw.githubusercontent.com/ENJ1/WoR-CP-Apps/main/List.txt"), ListPath);
                     }
                 }
                 catch (Exception ex)
